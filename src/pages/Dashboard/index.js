@@ -1,0 +1,34 @@
+/* eslint-disable max-len */
+import React from 'react'
+import { Box, Typography } from '@material-ui/core'
+
+import useStyles from './style'
+
+export default function DashboardPage() {
+  const classes = useStyles()
+
+  return (
+    <Box display="flex" flexDirection="column" width="100%" alignItems="center" justifyContent="center">
+      <Box display="flex" flexDirection="column" width={600} className={classes.body}>
+        <Typography
+          variant="body1"
+          style={{
+            wordWrap: 'break-word',
+          }}
+          align="justify"
+        >
+          Loremipsumdolorsitamet,consecteturdipiscingelit.Nullaaliquetlaciniatristique.Morbitinciduntanunegetcongue.Utdignissimloremveldignissimporttitor.Quisquecommodo,psumnecviverrasagittisarcumivenenatisquam,utluctusanterisusutarcu. Donec posuere placerat augue faucibus commodo. Proin lobortis massa at vulputate tempor. Nullam volutpat eros eros, in semper nisi mollis quis. Donec eget magna libero.
+          Vivamus ornare bibendum sem, ut imperdiet lectus dignissim vitae. Mauris eu ex rhoncus, scelerisque metus et, congue magna. Proin erat risus, scelerisque quis est at, tincidunt accumsan nibh. Nullam dui sem, consequat quis lobortis quis, sodales eget metus. Nulla ultrices aliquam dui, quis semper ipsum gravida a. Nullam facilisis eget nisl malesuada consectetur. Fusce placerat convallis mi in mattis. Etiam facilisis eget enim vel tincidunt. Nam ultrices lacus leo. Donec finibus eu nisi sed sodales. Fusce convallis purus lectus, vel bibendum neque dignissim id. Vestibulum rutrum ligula purus, vel lobortis quam feugiat sed. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nulla ut turpis egestas, faucibus turpis sit amet, dignissim orci. Nunc auctor euismod pulvinar.
+          Donec at elementum mi. Mauris tempus, risus sit amet tincidunt pellentesque, purus lectus pellentesque mauris, ut ultrices mi quam et lacus. Vestibulum tincidunt sem sit amet consectetur dictum. Vivamus euismod malesuada libero sed gravida. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Vivamus id dolor a nulla consequat scelerisque sit amet non tortor. Integer feugiat facilisis ullamcorper. Nullam eleifend augue eget pellentesque sodales. Vivamus eu accumsan orci. Ut turpis turpis, placerat et felis a, pellentesque consectetur magna.
+          Donec tempus eleifend nisi et convallis. Aliquam nisl lectus, luctus vitae turpis at, hendrerit sodales metus. Donec vestibulum lobortis tellus at cursus. Pellentesque purus nibh, tincidunt eget aliquam eget, auctor ut augue. Maecenas a dignissim lacus. Fusce in quam semper, eleifend ex vel, lobortis ipsum. Phasellus posuere metus ut ante luctus semper. In a imperdiet ipsum. Suspendisse bibendum molestie enim id ultricies. Donec odio nunc, ullamcorper non consequat at, finibus ac nunc.
+          Phasellus id neque vel augue pellentesque lacinia. In risus tellus, rhoncus sit amet malesuada eget, efficitur in erat. Maecenas id erat ullamcorper, pulvinar ligula at, rutrum dui. Praesent suscipit lectus in ullamcorper sagittis. Donec in gravida massa, eu pretium elit. Pellentesque aliquet rutrum enim, nec eleifend lacus rhoncus ut. Sed sed elementum velit, nec ullamcorper tortor. Maecenas elementum purus vel urna sodales, id molestie dolor luctus. Ut nec felis convallis, convallis nunc sed, cursus elit. Sed in congue justo. Suspendisse rutrum lacinia tincidunt. Etiam vulputate risus eros, quis hendrerit metus efficitur non. Mauris laoreet erat sit amet elit mollis, at consectetur ex luctus. Ut rhoncus ornare felis ut tristique. Nam molestie in nulla non mattis.
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla aliquet lacinia tristique. Morbi tincidunt a nunc eget congue. Ut dignissim lorem vel dignissim porttitor. Quisque commodo, ipsum nec viverra sagittis, arcu mi venenatis quam, ut luctus ante risus ut arcu. Donec posuere placerat augue faucibus commodo. Proin lobortis massa at vulputate tempor. Nullam volutpat eros eros, in semper nisi mollis quis. Donec eget magna libero.
+          Vivamus ornare bibendum sem, ut imperdiet lectus dignissim vitae. Mauris eu ex rhoncus, scelerisque metus et, congue magna. Proin erat risus, scelerisque quis est at, tincidunt accumsan nibh. Nullam dui sem, consequat quis lobortis quis, sodales eget metus. Nulla ultrices aliquam dui, quis semper ipsum gravida a. Nullam facilisis eget nisl malesuada consectetur. Fusce placerat convallis mi in mattis. Etiam facilisis eget enim vel tincidunt. Nam ultrices lacus leo. Donec finibus eu nisi sed sodales. Fusce convallis purus lectus, vel bibendum neque dignissim id. Vestibulum rutrum ligula purus, vel lobortis quam feugiat sed. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nulla ut turpis egestas, faucibus turpis sit amet, dignissim orci. Nunc auctor euismod pulvinar.
+          Donec at elementum mi. Mauris tempus, risus sit amet tincidunt pellentesque, purus lectus pellentesque mauris, ut ultrices mi quam et lacus. Vestibulum tincidunt sem sit amet consectetur dictum. Vivamus euismod malesuada libero sed gravida. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Vivamus id dolor a nulla consequat scelerisque sit amet non tortor. Integer feugiat facilisis ullamcorper. Nullam eleifend augue eget pellentesque sodales. Vivamus eu accumsan orci. Ut turpis turpis, placerat et felis a, pellentesque consectetur magna.
+          Donec tempus eleifend nisi et convallis. Aliquam nisl lectus, luctus vitae turpis at, hendrerit sodales metus. Donec vestibulum lobortis tellus at cursus. Pellentesque purus nibh, tincidunt eget aliquam eget, auctor ut augue. Maecenas a dignissim lacus. Fusce in quam semper, eleifend ex vel, lobortis ipsum. Phasellus posuere metus ut ante luctus semper. In a imperdiet ipsum. Suspendisse bibendum molestie enim id ultricies. Donec odio nunc, ullamcorper non consequat at, finibus ac nunc.
+          Phasellus id neque vel augue pellentesque lacinia. In risus tellus, rhoncus sit amet malesuada eget, efficitur in erat. Maecenas id erat ullamcorper, pulvinar ligula at, rutrum dui. Praesent suscipit lectus in ullamcorper sagittis. Donec in gravida massa, eu pretium elit. Pellentesque aliquet rutrum enim, nec eleifend lacus rhoncus ut. Sed sed elementum velit, nec ullamcorper tortor. Maecenas elementum purus vel urna sodales, id molestie dolor luctus. Ut nec felis convallis, convallis nunc sed, cursus elit. Sed in congue justo. Suspendisse rutrum lacinia tincidunt. Etiam vulputate risus eros, quis hendrerit metus efficitur non. Mauris laoreet erat sit amet elit mollis, at consectetur ex luctus. Ut rhoncus ornare felis ut tristique. Nam molestie in nulla non mattis.
+        </Typography>
+      </Box>
+    </Box>
+  )
+}
