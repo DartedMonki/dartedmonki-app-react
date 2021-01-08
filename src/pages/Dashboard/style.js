@@ -14,6 +14,11 @@ const useStyles = makeStyles((theme) => ({
       width: '90%',
     },
   },
+  feed: {
+    '& > *:not(:last-child)': {
+      marginBottom: theme.spacing(1),
+    },
+  },
 }))
 
 export default useStyles
