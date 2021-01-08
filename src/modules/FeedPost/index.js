@@ -22,9 +22,7 @@ export default function FeedPost() {
             align="justify"
           >
             Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem
-            Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum
-            Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem
-            Ipsum Lorem Ipsum
+            Ipsum Lorem Ipsum Lorem Ipsum
           </Typography>
         </Box>
       </Box>

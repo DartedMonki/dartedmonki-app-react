@@ -1,5 +1,7 @@
 import React from 'react'
-import { Box, Avatar, Button } from '@material-ui/core'
+import {
+  Box, Avatar, Button, TextField,
+} from '@material-ui/core'
 import { Formik, Form, Field } from 'formik'
 
 import useStyles from './style'
@@ -27,11 +29,15 @@ export default function FeedInput() {
                   <Field
                     name="message"
                     type="text"
-                    title="Status"
-                    placeholder="What's On Your Thoughts?"
+                    label="What's On Your Thoughts?"
+                    as={TextField}
                     handleBlur={handleBlur}
                     error={errors.message}
                     touch={touched.message}
+                    helperText={errors.message}
+                    multiline
+                    variant="outlined"
+                    rows={2}
                   />
                   <Box display="flex" justifyContent="flex-end">
                     <Button
